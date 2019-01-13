@@ -1,7 +1,3 @@
-export default function printMe() {
-
-  console.log('Updating print.js...');
-
-  console.log("test hot mode");
-
-}
+export default function print(text) {
+    console.log(text);
+};
